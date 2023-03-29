@@ -35,6 +35,8 @@ public class SelenideWebDriver implements WebDriverProvider {
 //    options.setFullReset(false);
     options.setAppPackage("com.pyankoff.andy");
     options.setAppActivity(".MainActivity");
+//    options.setCapability("unicodeKeyBoard", true);
+//    options.setCapability("resetKeyboard", true);
 //    options.setApp(app.getAbsolutePath());
 
     try {
@@ -43,18 +45,4 @@ public class SelenideWebDriver implements WebDriverProvider {
       throw new RuntimeException(e);
     }
   }
-
-//  private File downloadApk() {
-//    File apk = new File("build/ApiDemos-debug.apk");
-//    if (!apk.exists()) {
-//      String url = "https://github.com/appium/sample-code/blob/master/sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk?raw=true";
-//      try (InputStream in = new URL(url).openStream()) {
-//        copyInputStreamToFile(in, apk);
-//      }
-//      catch (IOException e) {
-//        throw new AssertionError("Failed to download apk", e);
-//      }
-//    }
-//    return apk;
-//  }
 }
