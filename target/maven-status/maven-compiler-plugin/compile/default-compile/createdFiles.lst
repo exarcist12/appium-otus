@@ -1,9 +1,4 @@
-data/accessability/ISubmenuItems.class
-pages/accessability/AccessabilityNodeProviderPage.class
-pages/BasePage.class
-providers/SelenideWebDriver.class
-extensions/AppiumExtension.class
-data/accessability/AccessabilityTextViewData.class
-data/MainMenuItemsData.class
-data/accessability/AccessabilityItemsData.class
-pages/MainPage.class
+pages\BasePage.class
+extensions\AppiumExtension.class
+providers\SelenideWebDriver.class
+pages\MainPage.class
