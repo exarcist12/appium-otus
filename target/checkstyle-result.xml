@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\main\java\pages\GrammarPage.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\main\java\pages\MainPage.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\main\java\pages\StartPage.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\test\java\demo\TestCheckSendingMesssage.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\test\java\demo\TestCheckSendingMesssageWithoutKeyboard.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\test\java\demo\TestClickExerciseTab.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\test\java\demo\TestClickGrammarAndGetFreeLesson.java">
+</file>
+<file name="C:\Users\exarc\IdeaProjects\appium-otus\src\test\java\demo\TestClickStartLesson.java">
+</file>
+</checkstyle>

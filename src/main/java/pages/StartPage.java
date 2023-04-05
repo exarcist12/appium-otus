@@ -1,5 +1,7 @@
 package pages;
 
+import static com.codeborne.selenide.Selenide.$$;
+
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
@@ -8,30 +10,27 @@ import io.appium.java_client.AppiumBy;
 
 import java.time.Duration;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+public class StartPage extends BasePage<StartPage> {
 
-public class StartPage extends BasePage<StartPage>{
+  private ElementsCollection nextButton = $$(AppiumBy.className("android.widget.TextView"));
 
-	private ElementsCollection nextButton = $$(AppiumBy.className("android.widget.TextView"));
+  public StartPage clikNext() {
+    nextButton.should(CollectionCondition.sizeNotEqual(0), Duration.ofSeconds(15))
+        .find(Condition.text("next")).click();
 
-	public StartPage clikNext(){
-		nextButton.should(CollectionCondition.sizeNotEqual(0), Duration.ofSeconds(15))
-				.find(Condition.text("next")).click();
+    return this;
+  }
 
-		return this;
-	}
+  public MainPage clikSkip() {
+    $$(AppiumBy.className("android.widget.TextView"))
+        .find(Condition.text("Skip >")).click();
 
-	public MainPage clikSkip(){
-		$$(AppiumBy.className("android.widget.TextView"))
-				.find(Condition.text("Skip >")).click();
+    return new MainPage();
+  }
 
-		return new MainPage();
-	}
-
-	public boolean isStartPageStart(){
-		SelenideElement button = nextButton.should(CollectionCondition.sizeNotEqual(0), Duration.ofSeconds(15))
-				.find(Condition.text("next"));
-		return button.isDisplayed();
-	}
+  public boolean isStartPageStart() {
+    SelenideElement button = nextButton.should(CollectionCondition.sizeNotEqual(0), Duration.ofSeconds(15))
+        .find(Condition.text("next"));
+    return button.isDisplayed();
+  }
 }

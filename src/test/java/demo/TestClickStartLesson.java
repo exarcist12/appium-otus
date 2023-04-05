@@ -2,8 +2,10 @@ package demo;
 
 import components.popups.AlertApp;
 import extensions.AppiumExtension;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+import pages.GrammarPage;
 import pages.MainPage;
 import pages.StartPage;
 
@@ -13,24 +15,24 @@ public class TestClickStartLesson {
   private StartPage startPage = new StartPage();
   private MainPage mainPage = new MainPage();
 
-  @Test
-  public void firstTest() {
+  private GrammarPage grammarPage = new GrammarPage();
+
+  @ParameterizedTest
+  @ValueSource(strings = {"Some - Any", "Much - Many"})
+  public void firstTest(String lesson) {
     mainPage.open();
-    if (startPage.isStartPageStart()){
+    if (startPage.isStartPageStart()) {
       new StartPage()
-              .clikNext()
-              .clikNext()
-              .clikSkip();
+        .clikNext()
+        .clikNext()
+        .clikSkip();
     }
 
-
-
     AlertApp allertApp = new AlertApp()
-            .popupShouldBeVisible();
+        .popupShouldBeVisible();
     allertApp.clickOkButton().popupShouldNotBeVisible();
 
-
-    mainPage.checkClickStart();
+    grammarPage.checkClickStart(lesson);
 
   }
 }

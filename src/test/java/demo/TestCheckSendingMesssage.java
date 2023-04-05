@@ -14,23 +14,20 @@ public class TestCheckSendingMesssage {
   private MainPage mainPage = new MainPage();
 
   @Test
-  public void firstTest() {
+  public void testCheckSendingMesssage() {
     mainPage.open();
-    if (startPage.isStartPageStart()){
+    if (startPage.isStartPageStart()) {
       new StartPage()
-              .clikNext()
-              .clikNext()
-              .clikSkip();
+          .clikNext()
+          .clikNext()
+          .clikSkip();
     }
 
 
-
     AlertApp allertApp = new AlertApp()
-            .popupShouldBeVisible();
+        .popupShouldBeVisible();
     allertApp.clickOkButton().popupShouldNotBeVisible();
 
-
     mainPage.sendMessage();
-
   }
 }
