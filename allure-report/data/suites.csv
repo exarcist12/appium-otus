@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Apr 18 20:20:47 SAMT 2023","Tue Apr 18 20:21:21 SAMT 2023","34081","","demo.TestClickGrammarAndGetFreeLesson","","demo.TestClickGrammarAndGetFreeLesson","firstTest","firstTest()",""
+"passed","Tue Apr 18 20:20:14 SAMT 2023","Tue Apr 18 20:20:47 SAMT 2023","33508","","demo.TestClickExerciseTab","","demo.TestClickExerciseTab","firstTest","firstTest()",""
+"passed","Tue Apr 18 20:21:22 SAMT 2023","Tue Apr 18 20:21:53 SAMT 2023","30850","","demo.TestClickStartLesson","","demo.TestClickStartLesson","firstTest","[1] Some - Any",""
+"passed","Tue Apr 18 20:21:53 SAMT 2023","Tue Apr 18 20:22:25 SAMT 2023","32319","","demo.TestClickStartLesson","","demo.TestClickStartLesson","firstTest","[2] Much - Many",""
+"passed","Tue Apr 18 20:18:24 SAMT 2023","Tue Apr 18 20:19:39 SAMT 2023","75124","","demo.TestCheckSendingMesssage","","demo.TestCheckSendingMesssage","testCheckSendingMesssage","testCheckSendingMesssage()",""
+"passed","Tue Apr 18 20:19:40 SAMT 2023","Tue Apr 18 20:20:14 SAMT 2023","34185","","demo.TestCheckSendingMesssageWithoutKeyboard","","demo.TestCheckSendingMesssageWithoutKeyboard","firstTest","firstTest()",""

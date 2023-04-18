@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: demo.TestClickStartLesson
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.094 s - in demo.TestClickStartLesson
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.478 s - in demo.TestClickStartLesson
