@@ -1,4 +1,4 @@
-#Tue Apr 18 20:17:49 SAMT 2023
+#Wed Apr 19 18:13:58 SAMT 2023
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\components\\popups\\IPopup.java=1680449635134
 configuration*?=F8681C392C06ABB0E9BBC09622BA5A727328C1F2
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\components\\popups\\AbsBasePopup.java=1679925215799
@@ -6,7 +6,7 @@ C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\pages\\GrammarPag
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\extensions\\AppiumExtension.java=1680450035306
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\pages\\StartPage.java=1680450480454
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\pages\\ChatPage.java=1680450035252
-C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\providers\\SelenideWebDriver.java=1680449635105
+C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\providers\\SelenideWebDriver.java=1681913163402
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\test\\java\\demo\\TestClickStartLesson.java=1680450480383
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\main\\java\\components\\popups\\AlertApp.java=1680449186365
 C\:\\Users\\exarc\\IdeaProjects\\appium-otus\\src\\test\\java\\demo\\TestCheckSendingMesssage.java=1680450480369

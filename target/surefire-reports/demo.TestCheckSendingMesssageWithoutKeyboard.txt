@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: demo.TestCheckSendingMesssageWithoutKeyboard
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.098 s - in demo.TestCheckSendingMesssageWithoutKeyboard
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.669 s - in demo.TestCheckSendingMesssageWithoutKeyboard

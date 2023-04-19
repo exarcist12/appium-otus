@@ -29,7 +29,7 @@ public class SelenideWebDriver implements WebDriverProvider {
     options.setAppActivity(".MainActivity");
 
     try {
-      return new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), options);
+      return new AndroidDriver(new URL("http://appium-container:4723/wd/hub"), options);
     } catch (MalformedURLException e) {
       throw new RuntimeException(e);
     }
